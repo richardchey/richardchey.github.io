@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>理查德的博客</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://www.chenzhen.club/"/>
+  <updated>2016-06-28T14:14:50.495Z</updated>
+  <id>http://www.chenzhen.club/</id>
+  
+  <author>
+    <name>Richard Chen</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mysql常用技巧</title>
+    <link href="http://www.chenzhen.club/2016/06/28/mysql/"/>
+    <id>http://www.chenzhen.club/2016/06/28/mysql/</id>
+    <published>2016-06-28T13:57:12.000Z</published>
+    <updated>2016-06-28T14:14:50.495Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;一、编码问题&quot;&gt;&lt;a href=&quot;#一、编码问题&quot; class=&quot;headerlink&quot; title=&quot;一、编码问题&quot;&gt;&lt;/a&gt;一、编码问题&lt;/h3&gt;&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;-- 查看编码&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;SHOW&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;VARIABLES&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;LIKE&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&#39;character_set_%&#39;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;-- 设置编码(latin1 utf8...)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;SET&lt;/span&gt; character_set_client = latin1;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;SET&lt;/span&gt; character_set_results = latin1;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;SET&lt;/span&gt; character_set_connection = latin1;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;一、编码问题&quot;&gt;&lt;a href=&quot;#一、编码问题&quot; class=&quot;headerlink&quot; title=&quot;一、编码问题&quot;&gt;&lt;/a&gt;一、编码问题&lt;/h3&gt;&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutte
+    
+    </summary>
+    
+      <category term="数据库" scheme="http://www.chenzhen.club/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+      <category term="FAQ" scheme="http://www.chenzhen.club/tags/FAQ/"/>
+    
+  </entry>
+  
+</feed>
